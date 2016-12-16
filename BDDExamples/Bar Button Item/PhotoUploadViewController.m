@@ -14,7 +14,7 @@
         _photoUploader = photoUploader;
 
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Upload", nil)
-                                                                                  style:UIBarButtonItemStyleBordered
+                                                                                  style:UIBarButtonItemStylePlain
                                                                                  target:self
                                                                                  action:@selector(didTapUploadButton:)];
     }

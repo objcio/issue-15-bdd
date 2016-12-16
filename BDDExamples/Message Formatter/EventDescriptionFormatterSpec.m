@@ -4,7 +4,7 @@
 #import "NSDate+MTDates.h"
 #import "Event.h"
 
-SPEC_BEGIN(EventDescriptionFormatterSpec)
+SpecBegin(EventDescriptionFormatter)
 
 describe(@"EventDescriptionFormatter", ^{
     __block EventDescriptionFormatter *descriptionFormatter;
@@ -81,4 +81,4 @@ describe(@"EventDescriptionFormatter", ^{
     });
 });
 
-SPEC_END
+SpecEnd

@@ -9,7 +9,7 @@
 - (void)didTapUploadButton:(UIBarButtonItem *)uploadButton;
 @end
 
-SPEC_BEGIN(PhotoUploadViewControllerSpec)
+SpecBegin(PhotoUploadViewController)
 
 describe(@"PhotoUploadViewController", ^{
     __block PhotoUploadViewController *photoUploadViewController;
@@ -85,4 +85,4 @@ describe(@"PhotoUploadViewController", ^{
     });
 });
 
-SPEC_END
+SpecEnd
